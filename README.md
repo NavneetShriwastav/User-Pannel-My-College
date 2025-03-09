@@ -53,5 +53,5 @@ Please Click below to watch the Demo Video:-
 [![Demo Video](https://m.media-amazon.com/images/I/61yoxKi1PaL.png)](https://youtube.com/shorts/PDbq6z7UCkw?si=pInG8Oq6PV7ejcQg)
 
 
-Thank you for taking the time to explore **My College - Admin Panel**. Your feedback and contributions are highly appreciated!
+Thank you for taking the time to explore **My College - User Panel**. Your feedback and contributions are highly appreciated!
 
