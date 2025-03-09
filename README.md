@@ -1,12 +1,3 @@
-Below is a concise repository description you can use in your GitHub repository settings:
-
-**Repository Description:**  
-*Mobile app for college management featuring both an Admin Panel and a User Panel, built with Java, XML, and Firebase.*
-
-You can then include the full README file (provided below) to give recruiters detailed insights into the project:
-
----
-
 # My College - User Panel
 
 Welcome to the **My College - User Panel**! This mobile application is the student-facing counterpart to our Admin Panel, providing seamless access to college resources and tools. With this app, students can log in using their roll numbers, view ebooks and notices uploaded by the admin, explore faculty details organized by department, browse event galleries, and calculate their expected SGPA.
@@ -37,7 +28,7 @@ To set up and run the project locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/NavneetShriwastav/My-College---Admin-Panel.git
+   git clone https://github.com/NavneetShriwastav/User-Pannel-My-College.git
    ```
    *(Ensure you’re on the correct branch if the User Panel is in a separate module.)*
 
