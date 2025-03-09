@@ -22,8 +22,7 @@ To set up and run the project locally:
    ```bash
    git clone https://github.com/NavneetShriwastav/User-Pannel-My-College.git
    ```
-   *(Ensure you’re on the correct branch if the User Panel is in a separate module.)*
-
+   
 2. **Open in Android Studio:**  
    Open the project folder in Android Studio and let Gradle sync.
 
