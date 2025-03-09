@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.cgpaCalc.cgpa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Subject 1 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 1"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject1_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject1_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 2"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject2_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject2_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Subject 3 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 3"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject3_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject3_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 4"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject4_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject4_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 5"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject5_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject5_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 6"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject6_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject6_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Subject 7 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 7"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject7_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject7_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Subject 8 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subject 8"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject8_grade_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/grades_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/thinLine" />
+
+                        <Spinner
+                            android:id="@+id/subject8_credit_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:entries="@array/credits_array"
+                            android:gravity="center"
+                            android:spinnerMode="dropdown" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Subject 2 -->
+                <!-- Repeat similar CardView structures for subjects 2 to 8 -->
+
+                <!-- Add CardViews for subjects 2 to 8 here -->
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:elevation="@dimen/text_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/calculate_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:text="Calculate" />
+
+                        <TextView
+                            android:id="@+id/sgpa_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:text="SGPA: 10.0"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

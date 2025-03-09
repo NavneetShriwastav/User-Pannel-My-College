@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ui.auth.SignIn">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to Sign In"
+        android:textSize="24sp"
+        android:fontFamily="@font/latobold"
+        android:textColor="@color/textColor"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/avatar">
+        </ImageView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:hint="Unique Id"
+            app:startIconDrawable="@drawable/baseline_verified_user_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etId"
+                android:fontFamily="@font/latobold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/latobold"
+        android:background="@color/colorPrimaryDark"
+        android:text="Sign In" />
+
+    <ProgressBar
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</LinearLayout>

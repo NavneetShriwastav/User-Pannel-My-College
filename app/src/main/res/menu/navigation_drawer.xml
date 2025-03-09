@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/navigation_cgpa"
+    android:title="SGPA Calculator"
+    android:icon="@drawable/cgpa"></item>
+
+
+    <item android:id="@+id/navigation_ebooks"
+        android:title="Ebooks"
+        android:icon="@drawable/ebook"></item>
+
+
+    <item android:id="@+id/logOut"
+        android:title="logOut"
+        android:icon="@drawable/logout"></item>
+
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/website"></item>
+
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share"
+        android:icon="@drawable/share"></item>
+
+
+    <item android:id="@+id/navigation_rate"
+        android:title="Rate Us"
+        android:icon="@drawable/review"></item>
+
+
+    <item android:id="@+id/navigation_developer"
+        android:title="Developers"
+        android:icon="@drawable/developer"></item>
+</menu>

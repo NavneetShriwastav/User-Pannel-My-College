@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        // Add JitPack repository
+        maven { url 'https://jitpack.io' }
+        // You can add more repositories if needed
+        google()
+        mavenCentral()
+        jcenter() // Deprecated on newer Gradle versions, but you might still need it for some dependencies
+    }
+}
+
+rootProject.name = "MyCollege"
+include ':app'

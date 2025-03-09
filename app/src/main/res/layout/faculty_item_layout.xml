@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:paddingLeft="12dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacherName"
+                    android:text="Umesh Shriwastav"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/regular"
+                    android:textSize="@dimen/title_size">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacherPost"
+                    android:text="Principal"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp">
+
+                </TextView>
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacherEmail"
+                    android:text="texting1@gmail.com"
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/teacherImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/avatar"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

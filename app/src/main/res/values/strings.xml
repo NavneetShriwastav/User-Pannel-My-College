@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyCollege(User Pannel)</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="developed_by">Developed By</string>
+    <string name="video_lectures">Video Lectures</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="ebooks">Ebooks</string>
+    <string name="themes">Themes</string>
+    <string name="website">Website</string>
+    <string name="share">Share</string>
+    <string name="about_college">Established in 1961 as the Regional Engineering College, NIT Rourkela has emerged as a premier technical institution in India. Situated in the serene surroundings of Rourkela, Odisha, it stands as a beacon of academic excellence, innovation, and research. With a sprawling campus equipped with state-of-the-art facilities and a distinguished faculty, NIT Rourkela offers undergraduate, postgraduate, and doctoral programs in various disciplines of engineering, science, management, and humanities. The institute fosters a vibrant academic environment conducive to holistic development, nurturing not only technical prowess but also leadership qualities and social responsibility among its students. NIT Rourkela\'s commitment to excellence in education, coupled with its strong emphasis on research and industry collaboration, makes it a preferred destination for aspiring engineers and scholars nationwide.</string>
+</resources>
