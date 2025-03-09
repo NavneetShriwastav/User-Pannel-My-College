@@ -14,14 +14,6 @@ The User Panel is designed with simplicity and functionality in mind. It allows 
 
 Built using Java, XML, and Firebase, the app is optimized for a smooth and responsive user experience.
 
-## Demo Video
-
-Watch our demo video to see the User Panel in action:
-
-[![Demo Video](http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](http://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-*Replace `YOUR_VIDEO_ID` with the actual video ID from YouTube.*
-
 ## Getting Started
 
 To set up and run the project locally:
@@ -54,9 +46,12 @@ Contributions are welcome! To contribute:
 For further information, feel free to reach out at [navneetshriwastav@gmail.com](mailto:navneetshriwastav@gmail.com).
 
 ---
+## Demo Video
+
 Please Click below to watch the Demo Video:-
 
 [![Demo Video](https://m.media-amazon.com/images/I/61yoxKi1PaL.png)](https://youtube.com/shorts/PDbq6z7UCkw?si=pInG8Oq6PV7ejcQg)
+
 
 Thank you for taking the time to explore **My College - Admin Panel**. Your feedback and contributions are highly appreciated!
 
