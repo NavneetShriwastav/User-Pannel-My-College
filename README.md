@@ -49,7 +49,7 @@ For further information, feel free to reach out at [navneetshriwastav@gmail.com]
 
 Please Click below to watch the Demo Video:-
 
-[![Demo Video](https://youtu.be/5YoOWI_VDg0?si=c29iQdpU-y_bZhMM)
+[![Demo Video](https://youtu.be/7NnZNFg0ThI?si=u7spcR71XeiF-NYr)
 
 
 Thank you for taking the time to explore **My College - User Panel**. Your feedback and contributions are highly appreciated!
