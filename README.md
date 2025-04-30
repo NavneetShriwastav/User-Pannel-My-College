@@ -49,7 +49,10 @@ For further information, feel free to reach out at [navneetshriwastav@gmail.com]
 
 Please click the image below to watch the Demo Video:
 
-[![Demo Video](https://thumbs.dreamstime.com/b/r-214795388.jpg)](https://youtu.be/5YoOWI_VDg0?si=c29iQdpU-y_bZhMM)
+<a href="https://youtu.be/5YoOWI_VDg0?si=c29iQdpU-y_bZhMM" target="_blank">
+  <img src="https://thumbs.dreamstime.com/b/r-214795388.jpg" alt="Demo Video" width="400"/>
+</a>
+
 
 
 
