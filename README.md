@@ -47,9 +47,10 @@ For further information, feel free to reach out at [navneetshriwastav@gmail.com]
 ---
 ## Demo Video
 
-Please Click below to watch the Demo Video:-
+Please click the image below to watch the Demo Video:
 
-[![Demo Video](https://youtu.be/7NnZNFg0ThI?si=u7spcR71XeiF-NYr)
+[![Demo Video](https://thumbs.dreamstime.com/b/r-214795388.jpg)](https://youtu.be/5YoOWI_VDg0?si=c29iQdpU-y_bZhMM)
+
 
 
 Thank you for taking the time to explore **My College - User Panel**. Your feedback and contributions are highly appreciated!
